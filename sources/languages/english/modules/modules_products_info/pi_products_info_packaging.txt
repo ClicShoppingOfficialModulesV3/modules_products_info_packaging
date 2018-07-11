@@ -1,0 +1,8 @@
+
+ module_products_info_packaging = Do you want to display the product packaging ?
+ module_products_info_packaging_description = Display the the product packaging
+
+ text_products_packaging_text = Packaging type :
+ text_products_packaging_new = New product
+ text_products_packaging_repackaged = Product repackaged
+ text_products_packaging_used = Product Used

@@ -1,0 +1,6 @@
+module_products_info_packaging = Souhaitez-vous afficher le conditionnement du produit ?
+module_products_info_packaging_description = Affiche le conditionnement du produit dans la page de description du produit
+module_products_info_packaging_text = Type de conditionnement :
+text_products_packaging_new = Neuf
+text_products_packaging_repackaged = Reconditionné
+text_products_packaging_used = Utilisé
