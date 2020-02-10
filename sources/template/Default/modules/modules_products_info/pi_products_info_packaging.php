@@ -104,7 +104,7 @@
           'configuration_description' => 'Affiche le code barre du produit à gauche ou à droite<br><br><i>(Valeur Left = Gauche <br>Valeur Right = Droite <br>Valeur None = Aucun)</i>',
           'configuration_group_id' => '6',
           'sort_order' => '2',
-          'set_function' => 'clic_cfg_set_boolean_value(array(\'float-md-right\', \'float-md-left\' \'float-md-none\') ',
+          'set_function' => 'clic_cfg_set_boolean_value(array(\'float-md-right\', \'float-md-left\', \'float-md-none\') ',
           'date_added' => 'now()'
         ]
       );
@@ -120,10 +120,6 @@
           'date_added' => 'now()'
         ]
       );
-
-      return $CLICSHOPPING_Db->save('configuration', ['configuration_value' => '1'],
-                                              ['configuration_key' => 'WEBSITE_MODULE_INSTALLED']
-                            );
     }
 
     public function remove() {
