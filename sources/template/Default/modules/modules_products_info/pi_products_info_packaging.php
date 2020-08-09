@@ -127,7 +127,7 @@
     }
 
     public function keys() {
-      return array (
+      return array(
         'MODULE_PRODUCTS_INFO_PACKAGING_STATUS',
         'MODULE_PRODUCTS_INFO_PACKAGING_CONTENT_WIDTH',
         'MODULE_PRODUCTS_INFO_PACKAGING_POSITION',
